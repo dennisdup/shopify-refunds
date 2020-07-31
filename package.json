@@ -1,0 +1,53 @@
+{
+  "name": "shopify-voting-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server",
+    "dev-server": "nodemon server",
+    "build": "next build",
+    "gcp-build": "npm fund && npm run build",
+    "start": "NODE_ENV=production node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edholcomb313/shopify-voting-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edholcomb313/shopify-voting-app/issues"
+  },
+  "homepage": "https://github.com/edholcomb313/shopify-voting-app#readme",
+  "dependencies": {
+    "@koa/cors": "^3.0.0",
+    "@shopify/app-bridge-react": "^1.20.0",
+    "@shopify/koa-shopify-auth": "^3.1.57",
+    "@shopify/koa-shopify-graphql-proxy": "^4.0.0",
+    "@shopify/polaris": "^4.16.0",
+    "@zeit/next-css": "^1.0.1",
+    "apollo-boost": "^0.4.7",
+    "apollo-fetch": "^0.7.0",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.0.0",
+    "isomorphic-fetch": "^2.2.1",
+    "js-cookie": "^2.2.1",
+    "json2csv": "^5.0.0",
+    "knex": "^0.21.1",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^8.0.8",
+    "koa-session": "^5.13.1",
+    "next": "^9.4.4",
+    "pg": "^7.18.2",
+    "react": "^16.13.0",
+    "react-apollo": "^3.1.5",
+    "react-dom": "^16.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

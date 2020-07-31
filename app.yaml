@@ -1,0 +1,12 @@
+runtime: nodejs10
+env_variables:
+    NODE_ENV: "production"
+    SHOPIFY_API_KEY: "218bbc7a672f8d4f361417d4fc1c1ac9"
+    SHOPIFY_API_SECRET_KEY: "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"
+    HOST: "https://refunder.noctivity.com"
+    SHOPIFY_TEST_CHARGE: false
+    POSTGRES_USERNAME: 'postgres'
+    POSTGRES_PASSWORD: '4ax52Refunder!'
+    POSTGRES_DATABASE: 'refund_system'
+    POSTGRES_DATABASE_TEST: 'refund_system_test'
+    POSTGRES_INSTANCE_NAME: 'shopify-refunder-app:us-central1:postgres'
